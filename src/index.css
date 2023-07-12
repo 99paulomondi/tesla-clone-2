@@ -10,6 +10,17 @@
     z-index: -1;
     object-fit: cover; /*this line helps in making the video be 100% height in mobile */
 }
+
+/* styles for navbar */
+.navItem:hover{
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 3px;
+}
+.navBtn{
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 3px;
+}
+
 @media (min-aspect-ratio:16/9){
     .backgroundClip{
       width: 100%;
