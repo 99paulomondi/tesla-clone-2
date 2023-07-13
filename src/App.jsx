@@ -1,12 +1,16 @@
-// import Navbar from "./components/Navbar"
-
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Home from "./pages/Home"
+import ModelS from "./pages/ModelS"
 function App() {
 
   return (
     <>
-      {/* <Navbar/> */}
-      <Home/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" exact element={<Home />}/>
+          <Route path="models" element={<ModelS/>}/>
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
