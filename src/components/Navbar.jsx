@@ -67,7 +67,35 @@ function MobileDrawer() {
                 </DrawerHeader>
                 
                 <DrawerBody>
-                    <h1>Kenya</h1>
+                    <Box>
+                        <List>
+                            <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Model S</ListItem>
+                            <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Model 3</ListItem>
+                            <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Model X</ListItem>
+                            <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Model Y</ListItem>
+                            <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Solar Roof</ListItem>
+                            <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Solar Panels</ListItem>
+                            <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Power Wall</ListItem>
+                            <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Existing Inventory</ListItem>
+                            <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Used Inventory</ListItem>
+                            <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Trade In</ListItem>
+                            <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Demo Drive</ListItem>
+                            <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Insurance</ListItem>
+                            <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Fleet</ListItem>
+                            <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Cybertruck</ListItem>
+                            <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Roadster</ListItem>
+                            <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Semi</ListItem>
+                            <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Charging</ListItem>
+                            <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Commercial Energy</ListItem>
+                            <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Utilities</ListItem>
+                            <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Careers</ListItem>
+                            <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Find Us</ListItem>
+                            <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Events</ListItem>
+                            <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Support</ListItem>
+                            <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Investor Relations</ListItem>
+                            <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>United States</ListItem>
+                        </List>
+                    </Box>
                 </DrawerBody>
             </DrawerContent>
         </Drawer>
