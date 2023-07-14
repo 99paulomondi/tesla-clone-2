@@ -1,4 +1,7 @@
 /* styles for hero container */
+body{
+    overflow-x: hidden;
+}
 .heroContainer{
     width:100%;
     height: 100vh;

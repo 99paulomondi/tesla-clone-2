@@ -9,7 +9,7 @@ export default function ModelS() {
           <source src="/videos/Model S _Tesla_banner.webm"/>
         </video>
         <Box>
-          <Box display="flex" justifyContent="center">
+          <Box display="flex" justifyContent="center" mx={2}>
             <Box py="5" className="heroItems">
               <Box textAlign="center" paddingTop={50}>
                 <Text fontSize="36px" fontWeight="semibold" color="white">Model S</Text>
@@ -19,19 +19,19 @@ export default function ModelS() {
               <Box pos="absolute" className="heroItems" bottom={120} >
                 <Box display="flex" justifyContent="space-between" textAlign="center">
                   <Box>
-                    <Text color="white" fontSize="28px" fontWeight="semibold">396 mi</Text>
+                    <Text color="white" fontSize={{sm: '18px', md: '28px'}} fontWeight="semibold">396 mi</Text>
                     <Text color="white" fontSize="13px">Range (EPA est.)</Text>
                   </Box>
                   <Box>
-                    <Text color="white" fontSize="28px" fontWeight="semibold">1.99 s</Text>
+                    <Text color="white" fontSize={{sm: '18px', md: '28px'}} fontWeight="semibold">1.99 s</Text>
                     <Text color="white" fontSize="13px">0-60 mph*</Text>
                   </Box>
                   <Box>
-                    <Text color="white" fontSize="28px" fontWeight="semibold">200 mph</Text>
+                    <Text color="white" fontSize={{sm: '18px', md: '28px'}} fontWeight="semibold">200 mph</Text>
                     <Text color="white" fontSize="13px">Top speed*</Text>
                   </Box>
                   <Box>
-                    <Text color="white" fontSize="28px" fontWeight="semibold">1,020 hp</Text>
+                    <Text color="white" fontSize={{sm: '18px', md: '28px'}} fontWeight="semibold">1,020 hp</Text>
                     <Text color="white" fontSize="13px">Peak Power*</Text>
                   </Box>
                 </Box>
