@@ -6,7 +6,7 @@ export default function Home() {
       <div className="heroContainer">
         <Navbar/>
         <video autoPlay muted loop playsInline className="backgroundClip">
-          <source src="/videos/Homepage-Test_Drive-NA-Desktop.webm"/>
+          <source src="/videos/Homepage_banner.webm"/>
         </video>
         <Box>
           <Box display="flex" justifyContent="center">
