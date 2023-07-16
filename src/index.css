@@ -32,7 +32,6 @@ body{
     backdrop-filter: blur(24px);
     background-color: rgba(45,45,45,.4);
     z-index: 999;
-    transition: .2s;
 }
 
 /* styles for navbar */
@@ -43,6 +42,12 @@ body{
 .navBtn{
     background-color: rgba(0,0,0,0.4);
     border-radius: 3px;
+}
+/* styles for swiper */
+.swiper-pagination-bullet{
+    background-color: white;
+    width: 12px;
+    height: 12px;
 }
 
 @media (min-aspect-ratio:16/9){

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const DesktopNav = () => {
     const [colorChange, setColorchange] = useState(false);
     const changeNavbarColor = () => {
-        if (window.scrollY >= 80) {
+        if (window.scrollY >= 70) {
             setColorchange(true);
         }
         else {
@@ -48,7 +48,7 @@ const DesktopNav = () => {
 const MobileNav = () => {
     const [colorChange, setColorchange] = useState(false);
     const changeNavbarColor = () => {
-        if (window.scrollY >= 80) {
+        if (window.scrollY >= 70) {
             setColorchange(true);
         }
         else {
