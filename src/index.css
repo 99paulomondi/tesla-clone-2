@@ -1,11 +1,14 @@
 /* styles for hero container */
 body{
     overflow-x: hidden;
+    padding: 0;
+    margin: 0;
 }
 .heroContainer{
     width:100%;
     height: 100vh;
     background-color: rgba(0,0,0,0.1);
+    position: relative;
 }
 .backgroundClip{
     position: absolute;
@@ -13,6 +16,23 @@ body{
     bottom: 0;
     z-index: -1;
     object-fit: cover; /*this line helps in making the video be 100% height in mobile */
+}
+#desktopNav{
+    position: fixed;
+    top: 0;
+}
+#mobileNav{
+    position: fixed;
+    top: 0;
+}
+.navbar{
+    background-color: transparent;
+}
+.navbar.colorChange{
+    backdrop-filter: blur(24px);
+    background-color: rgba(45,45,45,.4);
+    z-index: 999;
+    transition: .2s;
 }
 
 /* styles for navbar */
@@ -38,10 +58,10 @@ body{
     }
 }
 @media only screen and (max-width: 768px){
-    .mobileNav{
+    #mobileNav{
         display: block;
     }
-    .desktopNav{
+    #desktopNav{
         display: none;
     }
     .heroItems{
@@ -49,10 +69,10 @@ body{
     }
 }
 @media only screen and (min-width: 992px) {
-    .mobileNav{
+    #mobileNav{
         display: none;
     }
-    .desktopNav{
+    #desktopNav{
         display: block;
     }
     .heroItems{

@@ -16,7 +16,7 @@ export default function Home() {
             </Box>
           </Box>
           <Box display="flex" justifyContent="center">
-            <Button py={1} px={24} pos="absolute" bottom={100} bg="none" border="2px" borderColor="white" color="white" _hover={{bg: 'white', color: 'black'}}>Demo Drive</Button>
+            <Button py={1} px={24} pos="absolute" bottom={50} bg="none" border="2px" borderColor="white" color="white" _hover={{bg: 'white', color: 'black'}}>Demo Drive</Button>
           </Box>
         </Box>
       </div>
