@@ -255,6 +255,72 @@ export default function ModelS() {
             </Box>
           </Box>
         </Box>
+        <Box className="mybreak" backgroundImage="url('/images/Side view of red Model S.jpg')"></Box>
+
+        <Box px={{md: '150px', base: '30px'}} py="50px">
+          <Grid templateColumns='repeat(6, 1fr)' gap={10}>
+            <GridItem colSpan={{md: 2, base: 6}}>
+              <Text color="white" fontSize="20px">Exterior</Text>
+              <Text color="white" fontSize="28px" fontWeight="semibold" letterSpacing={1}>Designed for Efficiency</Text>
+              <div>
+                <Button mt={2} w={{base: '100%', md: '70%'}} color="white" border="2px" borderColor="white" bg="none" _hover={{color: 'black', bg: 'white'}}>Order Now</Button>
+              </div>
+              <div>
+                <Button my={4} w={{base: '100%', md: '70%'}} bg="gray.900" color="white" _hover={{bg: 'gray.600'}}>Compare Models</Button>
+              </div>
+            </GridItem>
+            <GridItem colSpan={{md: 4, base: 6}}>
+              <Text color="white" fontSize="17px">Model S Plaid has the quickest acceleration of any vehicle in production. Updated battery architecture for all Model S trims enables back-to-back track runs without performance degradation. Chat with a Tesla Advisor to learn more about Model S or schedule a demo drive today.</Text>
+            </GridItem>
+          </Grid>
+        </Box>
+
+        <Box px={{md: '150px', base: '30px'}}>
+          <Grid templateColumns='repeat(4, 1fr)'>
+            <GridItem colSpan={{base: 4, md: 2}}>
+              <Box pt={{base: '20px', md: '100px'}} pr={{md: '90px'}}>
+                <Text color="white" fontWeight="semibold" fontSize="18px">Relentless Performance</Text>
+                <Text color="white" fontSize="17px" py={2}>Staggered, performance wheels and tires keep the car planted and help transfer maximum power down to the road.</Text>
+              </Box>
+            </GridItem>
+            <GridItem colSpan={{base: 4, md: 2}}>
+              <Image src="/images/Red Model S front left wheel.jpg" width="100%" miHeight="350px"/>
+            </GridItem>
+          </Grid>
+
+          <Grid templateColumns='repeat(4, 1fr)'>
+            <GridItem colSpan={{base: 4, md: 2}}>
+              <Image src="/images/Red Model S back view.jpg" width="100%" miHeight="350px"/>
+            </GridItem>
+            <GridItem colSpan={{base: 4, md: 2}}>
+              <Box pt={{base: '20px', md: '100px'}} pl={{md: '90px'}}>
+                <Text color="white" fontWeight="semibold" fontSize="18px">Optimized Aerodynamics</Text>
+                <Text color="white" fontSize="17px" pt={2}>Attention to detail on all exterior surfaces makes Model S the most aerodynamic production car on Earth.</Text>
+              </Box>
+            </GridItem>
+          </Grid>
+
+          <Grid templateColumns='repeat(4, 1fr)'>
+            <GridItem colSpan={{base: 4, md: 2}}>
+              <Box pt={{base: '20px', md: '100px'}} pr={{md: '90px'}}>
+                <Text color="white" fontWeight="semibold" fontSize="18px">Refined Styling</Text>
+                <Text color="white" py={2} fontSize="17px">An iconic silhouette meets refreshed, elegant proportions.</Text>
+              </Box>
+            </GridItem>
+            <GridItem colSpan={{base: 4, md: 2}}>
+              <Image src="/images/Red Model S front-side view.jpg" width="100%" miHeight="350px"/>
+            </GridItem>
+          </Grid>
+        </Box> 
+      </Box>
+      {/* End of blackbox */}
+      <Box>
+        <div className="myrange">
+          <video autoPlay muted loop playsInline className="backgroundClip">
+            <source src="/videos/Model S  Tesla 18.webm"/>
+          </video>
+          Kenya
+        </div>
       </Box>
     </>
   )
