@@ -91,13 +91,22 @@ function MobileDrawer() {
                 <DrawerBody>
                     <Box>
                         <List>
-                            <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}><Link to="models">model s</Link></ListItem>
+                            <Box display={{base: 'block', md: 'none'}}>
+                                <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}><Link to="models">model S</Link></ListItem>
+                                <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Model 3</ListItem>
+                                <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Model X</ListItem>
+                                <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Model Y</ListItem>
+                                <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Solar Roof</ListItem>
+                                <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Solar Panels</ListItem>
+                                <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Power Wall</ListItem>
+                            </Box>
+                            {/* <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}><Link to="models">model s</Link></ListItem>
                             <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Model 3</ListItem>
                             <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Model X</ListItem>
                             <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Model Y</ListItem>
                             <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Solar Roof</ListItem>
                             <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Solar Panels</ListItem>
-                            <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Power Wall</ListItem>
+                            <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Power Wall</ListItem> */}
                             <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Existing Inventory</ListItem>
                             <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Used Inventory</ListItem>
                             <ListItem my={3} fontWeight="semibold" cursor="pointer" py={1} px={2} borderRadius="3px" _hover={{bg: 'gray.100'}}>Trade In</ListItem>
