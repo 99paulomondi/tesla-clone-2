@@ -314,12 +314,56 @@ export default function ModelS() {
         </Box> 
       </Box>
       {/* End of blackbox */}
+
+      {/* This is a video section */}
       <Box>
         <div className="myrange">
           <video autoPlay muted loop playsInline className="backgroundClip">
             <source src="/videos/Model S  Tesla 18.webm"/>
           </video>
-          Kenya
+          <Box>
+            <Grid templateColumns='repeat(7, 1fr)'>
+              <GridItem colSpan={{md: '5', base: '7'}} position="relative" px={{md: '50px', base: '30px'}}>
+                <Box>
+                  <Box position={{md: 'absolute'}} w={{md:'90%', base: '100%'}} bottom="70px" py={{base: '100px', md: '0px'}}>
+                    <Box>
+                      <Box display="flex" justifyContent="space-between" py={3}>
+                        <Box>
+                          <Text fontSize="24px" fontWeight="semibold"  color="white">1.9 s*</Text>
+                          <Text  color="white">0-60 mph</Text>
+                        </Box>
+                        <Box>
+                          <Text fontSize="24px" fontWeight="semibold"  color="white">396 mi</Text>
+                          <Text  color="white">Range (EPA est.)</Text>
+                        </Box>
+                        <Box>
+                          <Text fontSize="24px" fontWeight="semibold"  color="white">1,020 hp</Text>
+                          <Text  color="white">Peak Power</Text>
+                        </Box>
+                      </Box>
+                    </Box>
+                  </Box>
+                </Box>
+              </GridItem>
+              <GridItem colSpan={{md: '2', base: '7'}}>
+                <Box bg="white" minHeight={{md: '100vh', base: '62vh'}} width="100%" position="relative">
+                  <Box px="30px" py="50px">
+                    <Text fontSize="20px">Range</Text>
+                    <Text fontSize="28px" fontWeight="semibold" letterSpacing={1}>Go Anywhere</Text>
+                    <Text py={2}>With up to 405 miles of estimated range and access to the world’s largest and most powerful fast charging network, you’ll spend less time plugged in and more time on the road. Chat with a Tesla Advisor to learn more about Model S or schedule a demo drive today.</Text>
+                    <Box pt={{md: '30vh', base: '20px'}}>
+                      <Box>
+                        <Button w="100%" border="2px" borderColor="black" bg="none" _hover={{bg: 'black', color: 'white'}}>Order Now</Button>
+                      </Box>
+                      <Box>
+                        <Button mt="4" w="100%">Find My Route</Button>
+                      </Box>
+                    </Box>
+                  </Box>
+                </Box>
+              </GridItem>
+            </Grid>
+          </Box>
         </div>
       </Box>
     </>
